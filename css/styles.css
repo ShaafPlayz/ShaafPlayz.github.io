@@ -134,8 +134,7 @@ body {
   text-align: right;
   text-decoration: none;
 }
-
-.fa {
+.link {
   margin: 12px 9px 9px;
   padding: 10px;
   border-radius: 8px;
@@ -144,29 +143,19 @@ body {
   text-align: center;
   text-decoration: none;
   border: 0.001px solid gold;
+  background: #000000;
+  color: gold;
+}
+.link:hover {
+  color: black;
+  background: gold;
 }
 .greetlink {
   display: flex;
   justify-content: flex-end;
 }
 
-.fa:hover {
-  color: black;
-  background: gold;
-}
 
-.fa-github {
-  background: #000000;
-  color: gold;
-}
-.fa-linkedin{
-  background: #000000;
-  color: gold;
-}
-.fa-upwork{
-  background: #000000;
-  color: gold;
-}
 
 
 .watermark {
