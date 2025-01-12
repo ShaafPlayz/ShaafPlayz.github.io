@@ -98,7 +98,7 @@ body {
 
 /*Sidebar*/
 .sidenavbar {
-  width: 150px;
+  width: 95px;
   display: grid;
   position: fixed;
   height: 96vh;
