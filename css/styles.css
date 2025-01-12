@@ -44,25 +44,28 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .porj {
   display: flex;
-  border: 0;
   margin: 0;
   align-items: flex-end;
   flex-direction: row;
 
-   border: 0.1px solid gold;
+   border: 1px solid gold;
   height: 100%;
   width: 100%;
 
   justify-content: flex-end;
+}
+.projpage {
+  border: 1px solid black;
 }
 .aboutme {
   /*background-image: url("../resources/bckroots.png");*/
   background-image: linear-gradient(to right, yellow, yellow);
   margin: 2vh;
   height: 96vh;
-  border: 0.1px solid black;
+  border: 1px solid black;
   overflow: hidden;
 }
 
